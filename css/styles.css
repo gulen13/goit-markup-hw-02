@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
+  font-style: normal;
 }
 
 /* -------------Header--------------- */
@@ -57,33 +58,80 @@ body {
 }
 /* -------------Header--------------- */
 
+/* -------------Index-Main--------------- */
+/* херо
+и т/д/ */
+/* -------------Index-Main--------------- */
+
+/* -------------Portfolio--------------- */
+.visually-hidden {
+  visibility: hidden;
+}
+.portfolio-btn-list {
+  list-style: none;
+}
+.portfolio-btn-item {
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  border: 0;
+}
+.portfolio-btn-item:hover,
+.portfolio-btn-item:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.portfolio-list {
+  list-style: none;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* -------------Portfolio--------------- */
+
 /* -------------Footer--------------- */
 .logo-span-footer {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 .footer {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
 .footer-list {
-    list-style: none;
+  list-style: none;
 }
 .footer-list-adress {
-    font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: #FFFFFF;
-        text-decoration: none;
-        font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
 }
-.footer-list-cont{
-    font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
-        text-decoration: none;
-            font-style: normal;
+.footer-list-cont {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
 }
 /* -------------Footer--------------- */
 
-
-/* УБРАТЬ С ВИДУ НЕ НУЖНЫЕ H1 */
+/* ДОБАВИТЬ ПЕРЕМЕННЫЕ И ЗАМЕНИТЬ ПО ЦВЕТАМ В ЦСС 
+НАЗНАЧИТЬ ФОНОВЫЕ ЦВЕТА НА ИНДЕКСе */
